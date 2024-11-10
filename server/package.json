@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "npx nodemon server.js",
+    "dev": "npx --no-install nodemon server.js",
     "build": "npm i"
   },
   "engines": {
