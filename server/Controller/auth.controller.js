@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-const bcrypt = require('bcryptjs');
+import bcrypt from 'bcrypt';
+
 import jwt from "jsonwebtoken";
 import User from "../Model/userSchema.js";
 
