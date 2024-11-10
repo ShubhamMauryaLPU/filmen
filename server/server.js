@@ -4,6 +4,7 @@ import userRoute from "./Router/user.route.js";
 import authRouter from "./Router/auth.route.js";
 import testRouter from "./Router/test.route.js";
 import movieRouter from "./Router/movie.router.js";
+
 import cors from "cors";
 import dotenv from "dotenv";
 import "./db.js";
